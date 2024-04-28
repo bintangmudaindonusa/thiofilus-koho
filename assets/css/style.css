@@ -201,11 +201,24 @@ body {
 @media only screen and (max-width: 420px) {
   /* For mobile phones: */
   .card .card-header .card-header-title{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
   }
 
   .card .card-header .card-header-subtitle{
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+  }
+
+  .card .card-body .profile .profile-title{
+    font-size: 1.3rem;
+  }
+
+  .card .card-body .profile .profile-subtitle{
+    font-size: 0.9rem;
+  }
+
+  .card .card-body .profile .profile-text{
+    font-size: 0.7rem;
   }
 
   .card .card-footer{
